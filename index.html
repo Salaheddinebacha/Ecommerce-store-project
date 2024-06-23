@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="projects/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce product page</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- START OF NAVBAR -->
+      <div class="navbar">
+        <!--leftnavbar-->
+        <div class="left-navbar">
+          <img src="projects/images/icon-menu.svg" alt="menu" class="menuu" />
+          <img src="projects/images/logo.svg" alt="logo" />
+          <!--menu-->
+          <div class="menu">
+            <img
+              src="projects/images/icon-close.svg"
+              alt="close"
+              class="close"
+            />
+            <div class="links">
+              <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--rightnavbar-->
+        <div class="right-navbar">
+          <img
+            src="projects/images/icon-cart.svg"
+            alt="panier"
+            class="panier"
+          />
+          <span>1</span>
+          <img
+            src="projects/images/image-avatar.png"
+            alt="avatar"
+            width="30px"
+          />
+        </div>
+      </div>
+      <!-- END OF NAVBAR -->
+      <!-- START OF HEADER -->
+      <div class="header">
+        <!--CAS DE CART EMPTY-->
+        <div class="cart-empty cart-emptyy">
+          <h3>Cart</h3>
+          <hr />
+          <p>Your Cart is empty.</p>
+        </div>
+        <!--CAS DE CART NOT EMPTY-->
+        <div class="cart-notempty cart-notemptyy">
+          <h3>Cart</h3>
+          <hr />
+          <div class="content-cart">
+            <div class="left-cart">
+              <img
+                src="projects/images/image-product-1-thumbnail.jpg"
+                alt="1"
+              />
+            </div>
+            <div class="center-cart">
+              <p>
+                Fall Limited Edition Sneakers $125.00 *
+                <span class="unit">3</span>
+                <span class="total">$375.00</span>
+              </p>
+            </div>
+            <div class="right-cart">
+              <img
+                src="projects/images/icon-delete.svg"
+                alt="delete"
+                class="delete"
+              />
+            </div>
+          </div>
+
+          <button class="checkoutbutton">Checkout</button>
+        </div>
+        <!--LEFT HEADER-->
+        <div class="left-header">
+          <div class="main-image">
+            <img
+              src="projects/images/image-product-1.jpg"
+              alt="image1"
+              class="MAIN"
+            />
+            <img
+              src="projects/images/icon-previous.svg"
+              alt="previous"
+              class="previous"
+            />
+            <img src="projects/images/icon-next.svg" alt="next" class="next" />
+          </div>
+          <div class="other-images">
+            <img
+              src="projects/images/image-product-1-thumbnail.jpg"
+              alt="1"
+              class="im11"
+            />
+            <img
+              src="projects/images/image-product-2-thumbnail.jpg"
+              alt="2"
+              class="im22"
+            />
+            <img
+              src="projects/images/image-product-3-thumbnail.jpg"
+              alt="3"
+              class="im33"
+            />
+            <img
+              src="projects/images/image-product-4-thumbnail.jpg"
+              alt="4"
+              class="im44"
+            />
+          </div>
+        </div>
+        <!--RIGHT HEADER-->
+        <div class="right-header">
+          <div class="titre-description">
+            <p class="titre">SNEAKER COMPANY</p>
+            <h2>Fall Limited Edition Sneakers</h2>
+            <p class="text">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, theyll withstand everything
+              the weather can offer.
+            </p>
+          </div>
+          <div class="price">
+            <div class="left-price">
+              <h2>$125.00</h2>
+              <p>50%</p>
+            </div>
+            <div class="right-price">
+              <p>$250.00</p>
+            </div>
+          </div>
+          <div class="addtocart">
+            <div class="left-addtocart">
+              <img
+                src="projects/images/icon-minus.svg"
+                alt="minus"
+                class="moins"
+              />
+              <p>0</p>
+              <img
+                src="projects/images/icon-plus.svg"
+                alt="plus"
+                class="plus"
+              />
+            </div>
+            <div class="right-addtocart">
+              <button class="botona">
+                <img src="projects/images/icon-cart.svg" alt="cart" />Add to
+                cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF HEADER -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
